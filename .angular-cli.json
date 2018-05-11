@@ -19,9 +19,16 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/alertifyjs/build/css/alertify.min.css",
+        "../node_modules/alertifyjs/build/css/themes/bootstrap.min.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/bootswatch/dist/cerulean/bootstrap.min.css",
+        "../node_modules/angular-calendar/css/angular-calendar.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/alertifyjs/build/alertify.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
